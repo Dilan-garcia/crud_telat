@@ -1,0 +1,1963 @@
+CRITICAL - 2024-06-19 00:16:15 --> ErrorException: Undefined array key "tipo_usuario"
+[Method: GET, Route: empleados]
+in APPPATH\Views\empleados\index.php on line 32.
+ 1 APPPATH\Views\empleados\index.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tipo_usuario"', 'C:\\xampp\\htdocs\\crud_telat\\app\\Views\\empleados\\index.php', 32)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\crud_telat\\app\\Views\\empleados\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('empleados/index', [], true)
+ 5 APPPATH\Controllers\Empleados.php(24): view('empleados/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Empleados->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-06-19 01:05:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-19 01:05:25 --> ErrorException: Undefined variable $empleado
+[Method: GET, Route: empleados/1/edit]
+in APPPATH\Views\empleados\editar.php on line 14.
+ 1 APPPATH\Views\empleados\editar.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $empleado', 'C:\\xampp\\htdocs\\crud_telat\\app\\Views\\empleados\\editar.php', 14)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\crud_telat\\app\\Views\\empleados\\editar.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('empleados/editar', [], true)
+ 5 APPPATH\Controllers\Empleados.php(124): view('empleados/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Empleados->edit('1')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-06-19 01:06:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-19 01:06:26 --> ErrorException: Undefined variable $empleado
+[Method: GET, Route: empleados/1/edit]
+in APPPATH\Views\empleados\editar.php on line 14.
+ 1 APPPATH\Views\empleados\editar.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $empleado', 'C:\\xampp\\htdocs\\crud_telat\\app\\Views\\empleados\\editar.php', 14)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\crud_telat\\app\\Views\\empleados\\editar.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('empleados/editar', [], true)
+ 5 APPPATH\Controllers\Empleados.php(124): view('empleados/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Empleados->edit('1')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-06-19 01:06:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-19 01:06:27 --> ErrorException: Undefined variable $empleado
+[Method: GET, Route: empleados/1/edit]
+in APPPATH\Views\empleados\editar.php on line 14.
+ 1 APPPATH\Views\empleados\editar.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $empleado', 'C:\\xampp\\htdocs\\crud_telat\\app\\Views\\empleados\\editar.php', 14)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\crud_telat\\app\\Views\\empleados\\editar.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('empleados/editar', [], true)
+ 5 APPPATH\Controllers\Empleados.php(124): view('empleados/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Empleados->edit('1')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-06-19 01:06:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-19 01:06:27 --> ErrorException: Undefined variable $empleado
+[Method: GET, Route: empleados/1/edit]
+in APPPATH\Views\empleados\editar.php on line 14.
+ 1 APPPATH\Views\empleados\editar.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $empleado', 'C:\\xampp\\htdocs\\crud_telat\\app\\Views\\empleados\\editar.php', 14)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\crud_telat\\app\\Views\\empleados\\editar.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('empleados/editar', [], true)
+ 5 APPPATH\Controllers\Empleados.php(124): view('empleados/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Empleados->edit('1')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-06-19 01:19:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-19 01:20:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-19 01:20:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-19 01:20:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-19 01:20:47 --> ErrorException: Undefined variable $empleado
+[Method: GET, Route: empleados/2/edit]
+in APPPATH\Views\empleados\editar.php on line 14.
+ 1 APPPATH\Views\empleados\editar.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $empleado', 'C:\\xampp\\htdocs\\crud_telat\\app\\Views\\empleados\\editar.php', 14)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\crud_telat\\app\\Views\\empleados\\editar.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('empleados/editar', [], true)
+ 5 APPPATH\Controllers\Empleados.php(124): view('empleados/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Empleados->edit('2')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-06-19 01:26:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-19 01:26:37 --> ErrorException: Undefined variable $empleado
+[Method: GET, Route: empleados/2/edit]
+in APPPATH\Views\empleados\editar.php on line 14.
+ 1 APPPATH\Views\empleados\editar.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $empleado', 'C:\\xampp\\htdocs\\crud_telat\\app\\Views\\empleados\\editar.php', 14)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\crud_telat\\app\\Views\\empleados\\editar.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('empleados/editar', [], true)
+ 5 APPPATH\Controllers\Empleados.php(125): view('empleados/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Empleados->edit('2')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-06-19 01:32:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-19 01:32:28 --> ErrorException: Undefined variable $empleado
+[Method: GET, Route: empleados/2/edit]
+in APPPATH\Views\empleados\editar.php on line 14.
+ 1 APPPATH\Views\empleados\editar.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $empleado', 'C:\\xampp\\htdocs\\crud_telat\\app\\Views\\empleados\\editar.php', 14)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\crud_telat\\app\\Views\\empleados\\editar.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('empleados/editar', [], true)
+ 5 APPPATH\Controllers\Empleados.php(125): view('empleados/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Empleados->edit('2')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-06-19 01:33:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-19 01:33:50 --> ErrorException: Undefined variable $empleado
+[Method: GET, Route: empleados/2/edit]
+in APPPATH\Views\empleados\editar.php on line 14.
+ 1 APPPATH\Views\empleados\editar.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $empleado', 'C:\\xampp\\htdocs\\crud_telat\\app\\Views\\empleados\\editar.php', 14)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\crud_telat\\app\\Views\\empleados\\editar.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('empleados/editar', [], true)
+ 5 APPPATH\Controllers\Empleados.php(125): view('empleados/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Empleados->edit('2')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-06-19 01:33:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-19 01:33:51 --> ErrorException: Undefined variable $empleado
+[Method: GET, Route: empleados/2/edit]
+in APPPATH\Views\empleados\editar.php on line 14.
+ 1 APPPATH\Views\empleados\editar.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $empleado', 'C:\\xampp\\htdocs\\crud_telat\\app\\Views\\empleados\\editar.php', 14)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\crud_telat\\app\\Views\\empleados\\editar.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('empleados/editar', [], true)
+ 5 APPPATH\Controllers\Empleados.php(125): view('empleados/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Empleados->edit('2')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-06-19 01:33:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-19 01:33:53 --> ErrorException: Undefined variable $empleado
+[Method: GET, Route: empleados/2/edit]
+in APPPATH\Views\empleados\editar.php on line 14.
+ 1 APPPATH\Views\empleados\editar.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $empleado', 'C:\\xampp\\htdocs\\crud_telat\\app\\Views\\empleados\\editar.php', 14)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\crud_telat\\app\\Views\\empleados\\editar.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('empleados/editar', [], true)
+ 5 APPPATH\Controllers\Empleados.php(125): view('empleados/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Empleados->edit('2')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-06-19 01:33:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-19 01:33:53 --> ErrorException: Undefined variable $empleado
+[Method: GET, Route: empleados/2/edit]
+in APPPATH\Views\empleados\editar.php on line 14.
+ 1 APPPATH\Views\empleados\editar.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $empleado', 'C:\\xampp\\htdocs\\crud_telat\\app\\Views\\empleados\\editar.php', 14)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\crud_telat\\app\\Views\\empleados\\editar.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('empleados/editar', [], true)
+ 5 APPPATH\Controllers\Empleados.php(125): view('empleados/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Empleados->edit('2')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-06-19 01:33:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-19 01:33:54 --> ErrorException: Undefined variable $empleado
+[Method: GET, Route: empleados/2/edit]
+in APPPATH\Views\empleados\editar.php on line 14.
+ 1 APPPATH\Views\empleados\editar.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $empleado', 'C:\\xampp\\htdocs\\crud_telat\\app\\Views\\empleados\\editar.php', 14)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\crud_telat\\app\\Views\\empleados\\editar.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('empleados/editar', [], true)
+ 5 APPPATH\Controllers\Empleados.php(125): view('empleados/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Empleados->edit('2')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-06-19 01:33:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-19 01:33:55 --> ErrorException: Undefined variable $empleado
+[Method: GET, Route: empleados/2/edit]
+in APPPATH\Views\empleados\editar.php on line 14.
+ 1 APPPATH\Views\empleados\editar.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $empleado', 'C:\\xampp\\htdocs\\crud_telat\\app\\Views\\empleados\\editar.php', 14)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\crud_telat\\app\\Views\\empleados\\editar.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('empleados/editar', [], true)
+ 5 APPPATH\Controllers\Empleados.php(125): view('empleados/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Empleados->edit('2')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-06-19 01:33:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-19 01:33:56 --> ErrorException: Undefined variable $empleado
+[Method: GET, Route: empleados/2/edit]
+in APPPATH\Views\empleados\editar.php on line 14.
+ 1 APPPATH\Views\empleados\editar.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $empleado', 'C:\\xampp\\htdocs\\crud_telat\\app\\Views\\empleados\\editar.php', 14)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\crud_telat\\app\\Views\\empleados\\editar.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('empleados/editar', [], true)
+ 5 APPPATH\Controllers\Empleados.php(125): view('empleados/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Empleados->edit('2')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-06-19 01:33:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-19 01:33:56 --> ErrorException: Undefined variable $empleado
+[Method: GET, Route: empleados/2/edit]
+in APPPATH\Views\empleados\editar.php on line 14.
+ 1 APPPATH\Views\empleados\editar.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $empleado', 'C:\\xampp\\htdocs\\crud_telat\\app\\Views\\empleados\\editar.php', 14)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\crud_telat\\app\\Views\\empleados\\editar.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('empleados/editar', [], true)
+ 5 APPPATH\Controllers\Empleados.php(125): view('empleados/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Empleados->edit('2')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-06-19 01:33:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-19 01:33:57 --> ErrorException: Undefined variable $empleado
+[Method: GET, Route: empleados/2/edit]
+in APPPATH\Views\empleados\editar.php on line 14.
+ 1 APPPATH\Views\empleados\editar.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $empleado', 'C:\\xampp\\htdocs\\crud_telat\\app\\Views\\empleados\\editar.php', 14)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\crud_telat\\app\\Views\\empleados\\editar.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('empleados/editar', [], true)
+ 5 APPPATH\Controllers\Empleados.php(125): view('empleados/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Empleados->edit('2')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-06-19 01:33:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-19 01:33:57 --> ErrorException: Undefined variable $empleado
+[Method: GET, Route: empleados/2/edit]
+in APPPATH\Views\empleados\editar.php on line 14.
+ 1 APPPATH\Views\empleados\editar.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $empleado', 'C:\\xampp\\htdocs\\crud_telat\\app\\Views\\empleados\\editar.php', 14)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\crud_telat\\app\\Views\\empleados\\editar.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('empleados/editar', [], true)
+ 5 APPPATH\Controllers\Empleados.php(125): view('empleados/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Empleados->edit('2')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-06-19 01:33:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-19 01:33:58 --> ErrorException: Undefined variable $empleado
+[Method: GET, Route: empleados/2/edit]
+in APPPATH\Views\empleados\editar.php on line 14.
+ 1 APPPATH\Views\empleados\editar.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $empleado', 'C:\\xampp\\htdocs\\crud_telat\\app\\Views\\empleados\\editar.php', 14)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\crud_telat\\app\\Views\\empleados\\editar.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('empleados/editar', [], true)
+ 5 APPPATH\Controllers\Empleados.php(125): view('empleados/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Empleados->edit('2')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-06-19 01:33:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-19 01:33:59 --> ErrorException: Undefined variable $empleado
+[Method: GET, Route: empleados/2/edit]
+in APPPATH\Views\empleados\editar.php on line 14.
+ 1 APPPATH\Views\empleados\editar.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $empleado', 'C:\\xampp\\htdocs\\crud_telat\\app\\Views\\empleados\\editar.php', 14)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\crud_telat\\app\\Views\\empleados\\editar.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('empleados/editar', [], true)
+ 5 APPPATH\Controllers\Empleados.php(125): view('empleados/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Empleados->edit('2')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-06-19 01:33:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-19 01:33:59 --> ErrorException: Undefined variable $empleado
+[Method: GET, Route: empleados/2/edit]
+in APPPATH\Views\empleados\editar.php on line 14.
+ 1 APPPATH\Views\empleados\editar.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $empleado', 'C:\\xampp\\htdocs\\crud_telat\\app\\Views\\empleados\\editar.php', 14)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\crud_telat\\app\\Views\\empleados\\editar.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('empleados/editar', [], true)
+ 5 APPPATH\Controllers\Empleados.php(125): view('empleados/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Empleados->edit('2')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-06-19 01:34:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-19 01:34:00 --> ErrorException: Undefined variable $empleado
+[Method: GET, Route: empleados/2/edit]
+in APPPATH\Views\empleados\editar.php on line 14.
+ 1 APPPATH\Views\empleados\editar.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $empleado', 'C:\\xampp\\htdocs\\crud_telat\\app\\Views\\empleados\\editar.php', 14)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\crud_telat\\app\\Views\\empleados\\editar.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('empleados/editar', [], true)
+ 5 APPPATH\Controllers\Empleados.php(125): view('empleados/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Empleados->edit('2')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-06-19 01:34:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-19 01:34:01 --> ErrorException: Undefined variable $empleado
+[Method: GET, Route: empleados/2/edit]
+in APPPATH\Views\empleados\editar.php on line 14.
+ 1 APPPATH\Views\empleados\editar.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $empleado', 'C:\\xampp\\htdocs\\crud_telat\\app\\Views\\empleados\\editar.php', 14)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\crud_telat\\app\\Views\\empleados\\editar.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('empleados/editar', [], true)
+ 5 APPPATH\Controllers\Empleados.php(125): view('empleados/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Empleados->edit('2')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-06-19 01:38:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-19 01:38:38 --> ErrorException: Undefined variable $empleado
+[Method: GET, Route: empleados/2/edit]
+in APPPATH\Views\empleados\editar.php on line 14.
+ 1 APPPATH\Views\empleados\editar.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $empleado', 'C:\\xampp\\htdocs\\crud_telat\\app\\Views\\empleados\\editar.php', 14)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\crud_telat\\app\\Views\\empleados\\editar.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('empleados/editar', [], true)
+ 5 APPPATH\Controllers\Empleados.php(125): view('empleados/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Empleados->edit('2')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-06-19 01:38:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-19 01:38:39 --> ErrorException: Undefined variable $empleado
+[Method: GET, Route: empleados/2/edit]
+in APPPATH\Views\empleados\editar.php on line 14.
+ 1 APPPATH\Views\empleados\editar.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $empleado', 'C:\\xampp\\htdocs\\crud_telat\\app\\Views\\empleados\\editar.php', 14)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\crud_telat\\app\\Views\\empleados\\editar.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('empleados/editar', [], true)
+ 5 APPPATH\Controllers\Empleados.php(125): view('empleados/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Empleados->edit('2')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-06-19 01:38:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-19 01:38:39 --> ErrorException: Undefined variable $empleado
+[Method: GET, Route: empleados/2/edit]
+in APPPATH\Views\empleados\editar.php on line 14.
+ 1 APPPATH\Views\empleados\editar.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $empleado', 'C:\\xampp\\htdocs\\crud_telat\\app\\Views\\empleados\\editar.php', 14)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\crud_telat\\app\\Views\\empleados\\editar.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('empleados/editar', [], true)
+ 5 APPPATH\Controllers\Empleados.php(125): view('empleados/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Empleados->edit('2')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-06-19 01:38:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-19 01:38:40 --> ErrorException: Undefined variable $empleado
+[Method: GET, Route: empleados/2/edit]
+in APPPATH\Views\empleados\editar.php on line 14.
+ 1 APPPATH\Views\empleados\editar.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $empleado', 'C:\\xampp\\htdocs\\crud_telat\\app\\Views\\empleados\\editar.php', 14)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\crud_telat\\app\\Views\\empleados\\editar.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('empleados/editar', [], true)
+ 5 APPPATH\Controllers\Empleados.php(125): view('empleados/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Empleados->edit('2')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-06-19 01:38:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-19 01:38:40 --> ErrorException: Undefined variable $empleado
+[Method: GET, Route: empleados/2/edit]
+in APPPATH\Views\empleados\editar.php on line 14.
+ 1 APPPATH\Views\empleados\editar.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $empleado', 'C:\\xampp\\htdocs\\crud_telat\\app\\Views\\empleados\\editar.php', 14)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\crud_telat\\app\\Views\\empleados\\editar.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('empleados/editar', [], true)
+ 5 APPPATH\Controllers\Empleados.php(125): view('empleados/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Empleados->edit('2')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-06-19 01:38:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-19 01:38:41 --> ErrorException: Undefined variable $empleado
+[Method: GET, Route: empleados/2/edit]
+in APPPATH\Views\empleados\editar.php on line 14.
+ 1 APPPATH\Views\empleados\editar.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $empleado', 'C:\\xampp\\htdocs\\crud_telat\\app\\Views\\empleados\\editar.php', 14)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\crud_telat\\app\\Views\\empleados\\editar.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('empleados/editar', [], true)
+ 5 APPPATH\Controllers\Empleados.php(125): view('empleados/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Empleados->edit('2')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-06-19 01:38:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-19 01:38:42 --> ErrorException: Undefined variable $empleado
+[Method: GET, Route: empleados/2/edit]
+in APPPATH\Views\empleados\editar.php on line 14.
+ 1 APPPATH\Views\empleados\editar.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $empleado', 'C:\\xampp\\htdocs\\crud_telat\\app\\Views\\empleados\\editar.php', 14)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\crud_telat\\app\\Views\\empleados\\editar.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('empleados/editar', [], true)
+ 5 APPPATH\Controllers\Empleados.php(125): view('empleados/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Empleados->edit('2')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-06-19 01:38:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-19 01:38:42 --> ErrorException: Undefined variable $empleado
+[Method: GET, Route: empleados/2/edit]
+in APPPATH\Views\empleados\editar.php on line 14.
+ 1 APPPATH\Views\empleados\editar.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $empleado', 'C:\\xampp\\htdocs\\crud_telat\\app\\Views\\empleados\\editar.php', 14)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\crud_telat\\app\\Views\\empleados\\editar.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('empleados/editar', [], true)
+ 5 APPPATH\Controllers\Empleados.php(125): view('empleados/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Empleados->edit('2')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-06-19 01:39:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-19 01:39:30 --> ErrorException: Undefined variable $empleado
+[Method: GET, Route: empleados/2/edit]
+in APPPATH\Views\empleados\editar.php on line 14.
+ 1 APPPATH\Views\empleados\editar.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $empleado', 'C:\\xampp\\htdocs\\crud_telat\\app\\Views\\empleados\\editar.php', 14)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\crud_telat\\app\\Views\\empleados\\editar.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('empleados/editar', [], true)
+ 5 APPPATH\Controllers\Empleados.php(125): view('empleados/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Empleados->edit('2')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-06-19 01:39:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-19 01:39:31 --> ErrorException: Undefined variable $empleado
+[Method: GET, Route: empleados/2/edit]
+in APPPATH\Views\empleados\editar.php on line 14.
+ 1 APPPATH\Views\empleados\editar.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $empleado', 'C:\\xampp\\htdocs\\crud_telat\\app\\Views\\empleados\\editar.php', 14)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\crud_telat\\app\\Views\\empleados\\editar.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('empleados/editar', [], true)
+ 5 APPPATH\Controllers\Empleados.php(125): view('empleados/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Empleados->edit('2')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-06-19 01:39:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-19 01:39:32 --> ErrorException: Undefined variable $empleado
+[Method: GET, Route: empleados/2/edit]
+in APPPATH\Views\empleados\editar.php on line 14.
+ 1 APPPATH\Views\empleados\editar.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $empleado', 'C:\\xampp\\htdocs\\crud_telat\\app\\Views\\empleados\\editar.php', 14)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\crud_telat\\app\\Views\\empleados\\editar.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('empleados/editar', [], true)
+ 5 APPPATH\Controllers\Empleados.php(125): view('empleados/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Empleados->edit('2')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-06-19 01:39:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-19 01:39:32 --> ErrorException: Undefined variable $empleado
+[Method: GET, Route: empleados/2/edit]
+in APPPATH\Views\empleados\editar.php on line 14.
+ 1 APPPATH\Views\empleados\editar.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $empleado', 'C:\\xampp\\htdocs\\crud_telat\\app\\Views\\empleados\\editar.php', 14)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\crud_telat\\app\\Views\\empleados\\editar.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('empleados/editar', [], true)
+ 5 APPPATH\Controllers\Empleados.php(125): view('empleados/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Empleados->edit('2')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-06-19 01:39:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-19 01:39:32 --> ErrorException: Undefined variable $empleado
+[Method: GET, Route: empleados/2/edit]
+in APPPATH\Views\empleados\editar.php on line 14.
+ 1 APPPATH\Views\empleados\editar.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $empleado', 'C:\\xampp\\htdocs\\crud_telat\\app\\Views\\empleados\\editar.php', 14)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\crud_telat\\app\\Views\\empleados\\editar.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('empleados/editar', [], true)
+ 5 APPPATH\Controllers\Empleados.php(125): view('empleados/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Empleados->edit('2')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-06-19 01:39:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-19 01:39:32 --> ErrorException: Undefined variable $empleado
+[Method: GET, Route: empleados/2/edit]
+in APPPATH\Views\empleados\editar.php on line 14.
+ 1 APPPATH\Views\empleados\editar.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $empleado', 'C:\\xampp\\htdocs\\crud_telat\\app\\Views\\empleados\\editar.php', 14)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\crud_telat\\app\\Views\\empleados\\editar.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('empleados/editar', [], true)
+ 5 APPPATH\Controllers\Empleados.php(125): view('empleados/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Empleados->edit('2')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-06-19 01:39:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-19 01:39:33 --> ErrorException: Undefined variable $empleado
+[Method: GET, Route: empleados/2/edit]
+in APPPATH\Views\empleados\editar.php on line 14.
+ 1 APPPATH\Views\empleados\editar.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $empleado', 'C:\\xampp\\htdocs\\crud_telat\\app\\Views\\empleados\\editar.php', 14)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\crud_telat\\app\\Views\\empleados\\editar.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('empleados/editar', [], true)
+ 5 APPPATH\Controllers\Empleados.php(125): view('empleados/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Empleados->edit('2')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-06-19 01:39:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-19 01:39:33 --> ErrorException: Undefined variable $empleado
+[Method: GET, Route: empleados/2/edit]
+in APPPATH\Views\empleados\editar.php on line 14.
+ 1 APPPATH\Views\empleados\editar.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $empleado', 'C:\\xampp\\htdocs\\crud_telat\\app\\Views\\empleados\\editar.php', 14)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\crud_telat\\app\\Views\\empleados\\editar.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('empleados/editar', [], true)
+ 5 APPPATH\Controllers\Empleados.php(125): view('empleados/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Empleados->edit('2')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-06-19 01:39:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-19 01:39:33 --> ErrorException: Undefined variable $empleado
+[Method: GET, Route: empleados/2/edit]
+in APPPATH\Views\empleados\editar.php on line 14.
+ 1 APPPATH\Views\empleados\editar.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $empleado', 'C:\\xampp\\htdocs\\crud_telat\\app\\Views\\empleados\\editar.php', 14)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\crud_telat\\app\\Views\\empleados\\editar.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('empleados/editar', [], true)
+ 5 APPPATH\Controllers\Empleados.php(125): view('empleados/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Empleados->edit('2')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-06-19 01:39:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-19 01:39:33 --> ErrorException: Undefined variable $empleado
+[Method: GET, Route: empleados/2/edit]
+in APPPATH\Views\empleados\editar.php on line 14.
+ 1 APPPATH\Views\empleados\editar.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $empleado', 'C:\\xampp\\htdocs\\crud_telat\\app\\Views\\empleados\\editar.php', 14)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\crud_telat\\app\\Views\\empleados\\editar.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('empleados/editar', [], true)
+ 5 APPPATH\Controllers\Empleados.php(125): view('empleados/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Empleados->edit('2')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-06-19 01:39:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-19 01:39:34 --> ErrorException: Undefined variable $empleado
+[Method: GET, Route: empleados/2/edit]
+in APPPATH\Views\empleados\editar.php on line 14.
+ 1 APPPATH\Views\empleados\editar.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $empleado', 'C:\\xampp\\htdocs\\crud_telat\\app\\Views\\empleados\\editar.php', 14)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\crud_telat\\app\\Views\\empleados\\editar.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('empleados/editar', [], true)
+ 5 APPPATH\Controllers\Empleados.php(125): view('empleados/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Empleados->edit('2')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-06-19 01:39:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-19 01:39:34 --> ErrorException: Undefined variable $empleado
+[Method: GET, Route: empleados/2/edit]
+in APPPATH\Views\empleados\editar.php on line 14.
+ 1 APPPATH\Views\empleados\editar.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $empleado', 'C:\\xampp\\htdocs\\crud_telat\\app\\Views\\empleados\\editar.php', 14)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\crud_telat\\app\\Views\\empleados\\editar.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('empleados/editar', [], true)
+ 5 APPPATH\Controllers\Empleados.php(125): view('empleados/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Empleados->edit('2')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-06-19 01:39:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-19 01:39:34 --> ErrorException: Undefined variable $empleado
+[Method: GET, Route: empleados/2/edit]
+in APPPATH\Views\empleados\editar.php on line 14.
+ 1 APPPATH\Views\empleados\editar.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $empleado', 'C:\\xampp\\htdocs\\crud_telat\\app\\Views\\empleados\\editar.php', 14)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\crud_telat\\app\\Views\\empleados\\editar.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('empleados/editar', [], true)
+ 5 APPPATH\Controllers\Empleados.php(125): view('empleados/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Empleados->edit('2')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-06-19 01:39:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-19 01:39:34 --> ErrorException: Undefined variable $empleado
+[Method: GET, Route: empleados/2/edit]
+in APPPATH\Views\empleados\editar.php on line 14.
+ 1 APPPATH\Views\empleados\editar.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $empleado', 'C:\\xampp\\htdocs\\crud_telat\\app\\Views\\empleados\\editar.php', 14)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\crud_telat\\app\\Views\\empleados\\editar.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('empleados/editar', [], true)
+ 5 APPPATH\Controllers\Empleados.php(125): view('empleados/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Empleados->edit('2')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-06-19 01:39:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-19 01:39:35 --> ErrorException: Undefined variable $empleado
+[Method: GET, Route: empleados/2/edit]
+in APPPATH\Views\empleados\editar.php on line 14.
+ 1 APPPATH\Views\empleados\editar.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $empleado', 'C:\\xampp\\htdocs\\crud_telat\\app\\Views\\empleados\\editar.php', 14)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\crud_telat\\app\\Views\\empleados\\editar.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('empleados/editar', [], true)
+ 5 APPPATH\Controllers\Empleados.php(125): view('empleados/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Empleados->edit('2')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-06-19 01:43:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-19 01:43:28 --> ErrorException: Undefined variable $empleado
+[Method: GET, Route: empleados/2/edit]
+in APPPATH\Views\empleados\editar.php on line 14.
+ 1 APPPATH\Views\empleados\editar.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $empleado', 'C:\\xampp\\htdocs\\crud_telat\\app\\Views\\empleados\\editar.php', 14)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\crud_telat\\app\\Views\\empleados\\editar.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('empleados/editar', [], true)
+ 5 APPPATH\Controllers\Empleados.php(125): view('empleados/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Empleados->edit('2')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-06-19 01:43:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-19 01:43:29 --> ErrorException: Undefined variable $empleado
+[Method: GET, Route: empleados/2/edit]
+in APPPATH\Views\empleados\editar.php on line 14.
+ 1 APPPATH\Views\empleados\editar.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $empleado', 'C:\\xampp\\htdocs\\crud_telat\\app\\Views\\empleados\\editar.php', 14)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\crud_telat\\app\\Views\\empleados\\editar.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('empleados/editar', [], true)
+ 5 APPPATH\Controllers\Empleados.php(125): view('empleados/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Empleados->edit('2')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-06-19 01:43:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-19 01:43:30 --> ErrorException: Undefined variable $empleado
+[Method: GET, Route: empleados/2/edit]
+in APPPATH\Views\empleados\editar.php on line 14.
+ 1 APPPATH\Views\empleados\editar.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $empleado', 'C:\\xampp\\htdocs\\crud_telat\\app\\Views\\empleados\\editar.php', 14)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\crud_telat\\app\\Views\\empleados\\editar.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('empleados/editar', [], true)
+ 5 APPPATH\Controllers\Empleados.php(125): view('empleados/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Empleados->edit('2')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-06-19 01:43:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-19 01:43:30 --> ErrorException: Undefined variable $empleado
+[Method: GET, Route: empleados/2/edit]
+in APPPATH\Views\empleados\editar.php on line 14.
+ 1 APPPATH\Views\empleados\editar.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $empleado', 'C:\\xampp\\htdocs\\crud_telat\\app\\Views\\empleados\\editar.php', 14)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\crud_telat\\app\\Views\\empleados\\editar.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('empleados/editar', [], true)
+ 5 APPPATH\Controllers\Empleados.php(125): view('empleados/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Empleados->edit('2')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-06-19 01:43:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-19 01:43:31 --> ErrorException: Undefined variable $empleado
+[Method: GET, Route: empleados/2/edit]
+in APPPATH\Views\empleados\editar.php on line 14.
+ 1 APPPATH\Views\empleados\editar.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $empleado', 'C:\\xampp\\htdocs\\crud_telat\\app\\Views\\empleados\\editar.php', 14)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\crud_telat\\app\\Views\\empleados\\editar.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('empleados/editar', [], true)
+ 5 APPPATH\Controllers\Empleados.php(125): view('empleados/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Empleados->edit('2')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-06-19 01:43:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-19 01:43:31 --> ErrorException: Undefined variable $empleado
+[Method: GET, Route: empleados/2/edit]
+in APPPATH\Views\empleados\editar.php on line 14.
+ 1 APPPATH\Views\empleados\editar.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $empleado', 'C:\\xampp\\htdocs\\crud_telat\\app\\Views\\empleados\\editar.php', 14)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\crud_telat\\app\\Views\\empleados\\editar.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('empleados/editar', [], true)
+ 5 APPPATH\Controllers\Empleados.php(125): view('empleados/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Empleados->edit('2')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-06-19 01:43:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-19 01:43:31 --> ErrorException: Undefined variable $empleado
+[Method: GET, Route: empleados/2/edit]
+in APPPATH\Views\empleados\editar.php on line 14.
+ 1 APPPATH\Views\empleados\editar.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $empleado', 'C:\\xampp\\htdocs\\crud_telat\\app\\Views\\empleados\\editar.php', 14)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\crud_telat\\app\\Views\\empleados\\editar.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('empleados/editar', [], true)
+ 5 APPPATH\Controllers\Empleados.php(125): view('empleados/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Empleados->edit('2')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-06-19 01:43:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-19 01:43:31 --> ErrorException: Undefined variable $empleado
+[Method: GET, Route: empleados/2/edit]
+in APPPATH\Views\empleados\editar.php on line 14.
+ 1 APPPATH\Views\empleados\editar.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $empleado', 'C:\\xampp\\htdocs\\crud_telat\\app\\Views\\empleados\\editar.php', 14)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\crud_telat\\app\\Views\\empleados\\editar.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('empleados/editar', [], true)
+ 5 APPPATH\Controllers\Empleados.php(125): view('empleados/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Empleados->edit('2')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-06-19 01:43:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-19 01:43:32 --> ErrorException: Undefined variable $empleado
+[Method: GET, Route: empleados/2/edit]
+in APPPATH\Views\empleados\editar.php on line 14.
+ 1 APPPATH\Views\empleados\editar.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $empleado', 'C:\\xampp\\htdocs\\crud_telat\\app\\Views\\empleados\\editar.php', 14)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\crud_telat\\app\\Views\\empleados\\editar.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('empleados/editar', [], true)
+ 5 APPPATH\Controllers\Empleados.php(125): view('empleados/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Empleados->edit('2')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-06-19 01:43:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-19 01:43:32 --> ErrorException: Undefined variable $empleado
+[Method: GET, Route: empleados/2/edit]
+in APPPATH\Views\empleados\editar.php on line 14.
+ 1 APPPATH\Views\empleados\editar.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $empleado', 'C:\\xampp\\htdocs\\crud_telat\\app\\Views\\empleados\\editar.php', 14)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\crud_telat\\app\\Views\\empleados\\editar.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('empleados/editar', [], true)
+ 5 APPPATH\Controllers\Empleados.php(125): view('empleados/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Empleados->edit('2')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-06-19 01:43:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-19 01:43:32 --> ErrorException: Undefined variable $empleado
+[Method: GET, Route: empleados/2/edit]
+in APPPATH\Views\empleados\editar.php on line 14.
+ 1 APPPATH\Views\empleados\editar.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $empleado', 'C:\\xampp\\htdocs\\crud_telat\\app\\Views\\empleados\\editar.php', 14)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\crud_telat\\app\\Views\\empleados\\editar.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('empleados/editar', [], true)
+ 5 APPPATH\Controllers\Empleados.php(125): view('empleados/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Empleados->edit('2')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-06-19 01:43:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-19 01:43:32 --> ErrorException: Undefined variable $empleado
+[Method: GET, Route: empleados/2/edit]
+in APPPATH\Views\empleados\editar.php on line 14.
+ 1 APPPATH\Views\empleados\editar.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $empleado', 'C:\\xampp\\htdocs\\crud_telat\\app\\Views\\empleados\\editar.php', 14)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\crud_telat\\app\\Views\\empleados\\editar.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('empleados/editar', [], true)
+ 5 APPPATH\Controllers\Empleados.php(125): view('empleados/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Empleados->edit('2')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-06-19 01:43:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-19 01:43:33 --> ErrorException: Undefined variable $empleado
+[Method: GET, Route: empleados/2/edit]
+in APPPATH\Views\empleados\editar.php on line 14.
+ 1 APPPATH\Views\empleados\editar.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $empleado', 'C:\\xampp\\htdocs\\crud_telat\\app\\Views\\empleados\\editar.php', 14)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\crud_telat\\app\\Views\\empleados\\editar.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('empleados/editar', [], true)
+ 5 APPPATH\Controllers\Empleados.php(125): view('empleados/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Empleados->edit('2')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-06-19 01:43:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-19 01:43:33 --> ErrorException: Undefined variable $empleado
+[Method: GET, Route: empleados/2/edit]
+in APPPATH\Views\empleados\editar.php on line 14.
+ 1 APPPATH\Views\empleados\editar.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $empleado', 'C:\\xampp\\htdocs\\crud_telat\\app\\Views\\empleados\\editar.php', 14)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\crud_telat\\app\\Views\\empleados\\editar.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('empleados/editar', [], true)
+ 5 APPPATH\Controllers\Empleados.php(125): view('empleados/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Empleados->edit('2')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-06-19 01:45:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-19 01:45:56 --> ErrorException: Undefined variable $empleado
+[Method: GET, Route: empleados/2/edit]
+in APPPATH\Views\empleados\editar.php on line 14.
+ 1 APPPATH\Views\empleados\editar.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $empleado', 'C:\\xampp\\htdocs\\crud_telat\\app\\Views\\empleados\\editar.php', 14)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\crud_telat\\app\\Views\\empleados\\editar.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('empleados/editar', [], true)
+ 5 APPPATH\Controllers\Empleados.php(125): view('empleados/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Empleados->edit('2')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-06-19 01:52:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-19 01:52:19 --> ErrorException: Undefined variable $empleado
+[Method: GET, Route: empleados/2/edit]
+in APPPATH\Views\empleados\editar.php on line 14.
+ 1 APPPATH\Views\empleados\editar.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $empleado', 'C:\\xampp\\htdocs\\crud_telat\\app\\Views\\empleados\\editar.php', 14)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\crud_telat\\app\\Views\\empleados\\editar.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('empleados/editar', [], true)
+ 5 APPPATH\Controllers\Empleados.php(125): view('empleados/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Empleados->edit('2')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-06-19 01:52:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-19 01:52:20 --> ErrorException: Undefined variable $empleado
+[Method: GET, Route: empleados/2/edit]
+in APPPATH\Views\empleados\editar.php on line 14.
+ 1 APPPATH\Views\empleados\editar.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $empleado', 'C:\\xampp\\htdocs\\crud_telat\\app\\Views\\empleados\\editar.php', 14)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\crud_telat\\app\\Views\\empleados\\editar.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('empleados/editar', [], true)
+ 5 APPPATH\Controllers\Empleados.php(125): view('empleados/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Empleados->edit('2')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-06-19 01:52:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-19 01:52:21 --> ErrorException: Undefined variable $empleado
+[Method: GET, Route: empleados/2/edit]
+in APPPATH\Views\empleados\editar.php on line 14.
+ 1 APPPATH\Views\empleados\editar.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $empleado', 'C:\\xampp\\htdocs\\crud_telat\\app\\Views\\empleados\\editar.php', 14)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\crud_telat\\app\\Views\\empleados\\editar.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('empleados/editar', [], true)
+ 5 APPPATH\Controllers\Empleados.php(125): view('empleados/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Empleados->edit('2')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-06-19 01:52:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-19 01:52:22 --> ErrorException: Undefined variable $empleado
+[Method: GET, Route: empleados/2/edit]
+in APPPATH\Views\empleados\editar.php on line 14.
+ 1 APPPATH\Views\empleados\editar.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $empleado', 'C:\\xampp\\htdocs\\crud_telat\\app\\Views\\empleados\\editar.php', 14)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\crud_telat\\app\\Views\\empleados\\editar.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('empleados/editar', [], true)
+ 5 APPPATH\Controllers\Empleados.php(125): view('empleados/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Empleados->edit('2')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-06-19 01:53:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-19 02:10:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-19 02:13:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-19 02:21:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-19 02:21:37 --> ErrorException: Undefined array key "id_usuario"
+[Method: GET, Route: empleados/2/edit]
+in APPPATH\Views\empleados\editar.php on line 26.
+ 1 APPPATH\Views\empleados\editar.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "id_usuario"', 'C:\\xampp\\htdocs\\crud_telat\\app\\Views\\empleados\\editar.php', 26)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\crud_telat\\app\\Views\\empleados\\editar.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('empleados/editar', [], true)
+ 5 APPPATH\Controllers\Empleados.php(125): view('empleados/editar', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Empleados->edit('2')
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-06-19 02:22:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-19 02:22:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-19 02:28:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-19 02:31:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-19 02:32:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-19 02:32:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-19 02:34:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-19 02:35:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-19 02:35:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-19 02:35:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-19 02:35:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-19 02:36:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-19 02:36:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-19 02:36:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-19 02:36:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-19 02:36:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-19 02:38:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-19 02:39:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-19 02:39:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-19 02:39:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-19 02:39:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-19 02:40:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-19 02:41:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-19 02:42:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-19 02:42:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-19 02:44:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-19 02:50:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-19 02:51:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-19 02:51:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-19 02:51:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-19 02:52:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-19 02:52:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-19 02:52:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-19 02:53:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-19 02:54:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-19 02:54:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-19 02:56:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-19 02:56:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-19 02:56:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-19 02:56:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-19 02:57:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-19 02:57:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2024-06-19 04:12:15 --> ErrorException: Undefined array key "tipoUsuario"
+[Method: GET, Route: empleados]
+in APPPATH\Views\empleados\index.php on line 32.
+ 1 APPPATH\Views\empleados\index.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tipoUsuario"', 'C:\\xampp\\htdocs\\crud_telat\\app\\Views\\empleados\\index.php', 32)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\crud_telat\\app\\Views\\empleados\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('empleados/index', [], true)
+ 5 APPPATH\Controllers\Empleados.php(24): view('empleados/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Empleados->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-19 04:12:17 --> ErrorException: Undefined array key "tipoUsuario"
+[Method: GET, Route: empleados]
+in APPPATH\Views\empleados\index.php on line 32.
+ 1 APPPATH\Views\empleados\index.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tipoUsuario"', 'C:\\xampp\\htdocs\\crud_telat\\app\\Views\\empleados\\index.php', 32)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\crud_telat\\app\\Views\\empleados\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('empleados/index', [], true)
+ 5 APPPATH\Controllers\Empleados.php(24): view('empleados/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Empleados->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-19 04:12:18 --> ErrorException: Undefined array key "tipoUsuario"
+[Method: GET, Route: empleados]
+in APPPATH\Views\empleados\index.php on line 32.
+ 1 APPPATH\Views\empleados\index.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tipoUsuario"', 'C:\\xampp\\htdocs\\crud_telat\\app\\Views\\empleados\\index.php', 32)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\crud_telat\\app\\Views\\empleados\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('empleados/index', [], true)
+ 5 APPPATH\Controllers\Empleados.php(24): view('empleados/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Empleados->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-19 04:12:18 --> ErrorException: Undefined array key "tipoUsuario"
+[Method: GET, Route: empleados]
+in APPPATH\Views\empleados\index.php on line 32.
+ 1 APPPATH\Views\empleados\index.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tipoUsuario"', 'C:\\xampp\\htdocs\\crud_telat\\app\\Views\\empleados\\index.php', 32)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\crud_telat\\app\\Views\\empleados\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('empleados/index', [], true)
+ 5 APPPATH\Controllers\Empleados.php(24): view('empleados/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Empleados->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-19 04:12:18 --> ErrorException: Undefined array key "tipoUsuario"
+[Method: GET, Route: empleados]
+in APPPATH\Views\empleados\index.php on line 32.
+ 1 APPPATH\Views\empleados\index.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tipoUsuario"', 'C:\\xampp\\htdocs\\crud_telat\\app\\Views\\empleados\\index.php', 32)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\crud_telat\\app\\Views\\empleados\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('empleados/index', [], true)
+ 5 APPPATH\Controllers\Empleados.php(24): view('empleados/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Empleados->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-19 04:12:18 --> ErrorException: Undefined array key "tipoUsuario"
+[Method: GET, Route: empleados]
+in APPPATH\Views\empleados\index.php on line 32.
+ 1 APPPATH\Views\empleados\index.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tipoUsuario"', 'C:\\xampp\\htdocs\\crud_telat\\app\\Views\\empleados\\index.php', 32)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\crud_telat\\app\\Views\\empleados\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('empleados/index', [], true)
+ 5 APPPATH\Controllers\Empleados.php(24): view('empleados/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Empleados->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-19 04:13:19 --> ErrorException: Undefined array key "name_usuario"
+[Method: GET, Route: empleados]
+in APPPATH\Views\empleados\index.php on line 32.
+ 1 APPPATH\Views\empleados\index.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name_usuario"', 'C:\\xampp\\htdocs\\crud_telat\\app\\Views\\empleados\\index.php', 32)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\crud_telat\\app\\Views\\empleados\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('empleados/index', [], true)
+ 5 APPPATH\Controllers\Empleados.php(24): view('empleados/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Empleados->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-19 04:13:20 --> ErrorException: Undefined array key "name_usuario"
+[Method: GET, Route: empleados]
+in APPPATH\Views\empleados\index.php on line 32.
+ 1 APPPATH\Views\empleados\index.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name_usuario"', 'C:\\xampp\\htdocs\\crud_telat\\app\\Views\\empleados\\index.php', 32)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\crud_telat\\app\\Views\\empleados\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('empleados/index', [], true)
+ 5 APPPATH\Controllers\Empleados.php(24): view('empleados/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Empleados->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-19 04:13:21 --> ErrorException: Undefined array key "name_usuario"
+[Method: GET, Route: empleados]
+in APPPATH\Views\empleados\index.php on line 32.
+ 1 APPPATH\Views\empleados\index.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name_usuario"', 'C:\\xampp\\htdocs\\crud_telat\\app\\Views\\empleados\\index.php', 32)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\crud_telat\\app\\Views\\empleados\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('empleados/index', [], true)
+ 5 APPPATH\Controllers\Empleados.php(24): view('empleados/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Empleados->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-19 04:14:16 --> ErrorException: Undefined array key "name_usuario"
+[Method: GET, Route: empleados]
+in APPPATH\Views\empleados\index.php on line 32.
+ 1 APPPATH\Views\empleados\index.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name_usuario"', 'C:\\xampp\\htdocs\\crud_telat\\app\\Views\\empleados\\index.php', 32)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\crud_telat\\app\\Views\\empleados\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('empleados/index', [], true)
+ 5 APPPATH\Controllers\Empleados.php(24): view('empleados/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Empleados->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-19 04:14:16 --> ErrorException: Undefined array key "name_usuario"
+[Method: GET, Route: empleados]
+in APPPATH\Views\empleados\index.php on line 32.
+ 1 APPPATH\Views\empleados\index.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name_usuario"', 'C:\\xampp\\htdocs\\crud_telat\\app\\Views\\empleados\\index.php', 32)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\crud_telat\\app\\Views\\empleados\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('empleados/index', [], true)
+ 5 APPPATH\Controllers\Empleados.php(24): view('empleados/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Empleados->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-19 04:14:17 --> ErrorException: Undefined array key "name_usuario"
+[Method: GET, Route: empleados]
+in APPPATH\Views\empleados\index.php on line 32.
+ 1 APPPATH\Views\empleados\index.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name_usuario"', 'C:\\xampp\\htdocs\\crud_telat\\app\\Views\\empleados\\index.php', 32)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\crud_telat\\app\\Views\\empleados\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('empleados/index', [], true)
+ 5 APPPATH\Controllers\Empleados.php(24): view('empleados/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Empleados->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-19 04:14:17 --> ErrorException: Undefined array key "name_usuario"
+[Method: GET, Route: empleados]
+in APPPATH\Views\empleados\index.php on line 32.
+ 1 APPPATH\Views\empleados\index.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name_usuario"', 'C:\\xampp\\htdocs\\crud_telat\\app\\Views\\empleados\\index.php', 32)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\crud_telat\\app\\Views\\empleados\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('empleados/index', [], true)
+ 5 APPPATH\Controllers\Empleados.php(24): view('empleados/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Empleados->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-19 04:14:17 --> ErrorException: Undefined array key "name_usuario"
+[Method: GET, Route: empleados]
+in APPPATH\Views\empleados\index.php on line 32.
+ 1 APPPATH\Views\empleados\index.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name_usuario"', 'C:\\xampp\\htdocs\\crud_telat\\app\\Views\\empleados\\index.php', 32)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\crud_telat\\app\\Views\\empleados\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('empleados/index', [], true)
+ 5 APPPATH\Controllers\Empleados.php(24): view('empleados/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Empleados->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-19 04:14:18 --> ErrorException: Undefined array key "name_usuario"
+[Method: GET, Route: empleados]
+in APPPATH\Views\empleados\index.php on line 32.
+ 1 APPPATH\Views\empleados\index.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name_usuario"', 'C:\\xampp\\htdocs\\crud_telat\\app\\Views\\empleados\\index.php', 32)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\crud_telat\\app\\Views\\empleados\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('empleados/index', [], true)
+ 5 APPPATH\Controllers\Empleados.php(24): view('empleados/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Empleados->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-19 04:14:18 --> ErrorException: Undefined array key "name_usuario"
+[Method: GET, Route: empleados]
+in APPPATH\Views\empleados\index.php on line 32.
+ 1 APPPATH\Views\empleados\index.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name_usuario"', 'C:\\xampp\\htdocs\\crud_telat\\app\\Views\\empleados\\index.php', 32)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\crud_telat\\app\\Views\\empleados\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('empleados/index', [], true)
+ 5 APPPATH\Controllers\Empleados.php(24): view('empleados/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Empleados->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-19 04:14:18 --> ErrorException: Undefined array key "name_usuario"
+[Method: GET, Route: empleados]
+in APPPATH\Views\empleados\index.php on line 32.
+ 1 APPPATH\Views\empleados\index.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name_usuario"', 'C:\\xampp\\htdocs\\crud_telat\\app\\Views\\empleados\\index.php', 32)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\crud_telat\\app\\Views\\empleados\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('empleados/index', [], true)
+ 5 APPPATH\Controllers\Empleados.php(24): view('empleados/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Empleados->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-19 04:14:18 --> ErrorException: Undefined array key "name_usuario"
+[Method: GET, Route: empleados]
+in APPPATH\Views\empleados\index.php on line 32.
+ 1 APPPATH\Views\empleados\index.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name_usuario"', 'C:\\xampp\\htdocs\\crud_telat\\app\\Views\\empleados\\index.php', 32)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\crud_telat\\app\\Views\\empleados\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('empleados/index', [], true)
+ 5 APPPATH\Controllers\Empleados.php(24): view('empleados/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Empleados->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-19 04:14:18 --> ErrorException: Undefined array key "name_usuario"
+[Method: GET, Route: empleados]
+in APPPATH\Views\empleados\index.php on line 32.
+ 1 APPPATH\Views\empleados\index.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name_usuario"', 'C:\\xampp\\htdocs\\crud_telat\\app\\Views\\empleados\\index.php', 32)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\crud_telat\\app\\Views\\empleados\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('empleados/index', [], true)
+ 5 APPPATH\Controllers\Empleados.php(24): view('empleados/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Empleados->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-19 04:14:18 --> ErrorException: Undefined array key "name_usuario"
+[Method: GET, Route: empleados]
+in APPPATH\Views\empleados\index.php on line 32.
+ 1 APPPATH\Views\empleados\index.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name_usuario"', 'C:\\xampp\\htdocs\\crud_telat\\app\\Views\\empleados\\index.php', 32)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\crud_telat\\app\\Views\\empleados\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('empleados/index', [], true)
+ 5 APPPATH\Controllers\Empleados.php(24): view('empleados/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Empleados->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-19 04:14:18 --> ErrorException: Undefined array key "name_usuario"
+[Method: GET, Route: empleados]
+in APPPATH\Views\empleados\index.php on line 32.
+ 1 APPPATH\Views\empleados\index.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name_usuario"', 'C:\\xampp\\htdocs\\crud_telat\\app\\Views\\empleados\\index.php', 32)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\crud_telat\\app\\Views\\empleados\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('empleados/index', [], true)
+ 5 APPPATH\Controllers\Empleados.php(24): view('empleados/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Empleados->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-19 04:14:19 --> ErrorException: Undefined array key "name_usuario"
+[Method: GET, Route: empleados]
+in APPPATH\Views\empleados\index.php on line 32.
+ 1 APPPATH\Views\empleados\index.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name_usuario"', 'C:\\xampp\\htdocs\\crud_telat\\app\\Views\\empleados\\index.php', 32)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\crud_telat\\app\\Views\\empleados\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('empleados/index', [], true)
+ 5 APPPATH\Controllers\Empleados.php(24): view('empleados/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Empleados->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-19 04:14:19 --> ErrorException: Undefined array key "name_usuario"
+[Method: GET, Route: empleados]
+in APPPATH\Views\empleados\index.php on line 32.
+ 1 APPPATH\Views\empleados\index.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name_usuario"', 'C:\\xampp\\htdocs\\crud_telat\\app\\Views\\empleados\\index.php', 32)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\crud_telat\\app\\Views\\empleados\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('empleados/index', [], true)
+ 5 APPPATH\Controllers\Empleados.php(24): view('empleados/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Empleados->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-19 04:14:19 --> ErrorException: Undefined array key "name_usuario"
+[Method: GET, Route: empleados]
+in APPPATH\Views\empleados\index.php on line 32.
+ 1 APPPATH\Views\empleados\index.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name_usuario"', 'C:\\xampp\\htdocs\\crud_telat\\app\\Views\\empleados\\index.php', 32)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\crud_telat\\app\\Views\\empleados\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('empleados/index', [], true)
+ 5 APPPATH\Controllers\Empleados.php(24): view('empleados/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Empleados->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-19 04:14:19 --> ErrorException: Undefined array key "name_usuario"
+[Method: GET, Route: empleados]
+in APPPATH\Views\empleados\index.php on line 32.
+ 1 APPPATH\Views\empleados\index.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name_usuario"', 'C:\\xampp\\htdocs\\crud_telat\\app\\Views\\empleados\\index.php', 32)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\crud_telat\\app\\Views\\empleados\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('empleados/index', [], true)
+ 5 APPPATH\Controllers\Empleados.php(24): view('empleados/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Empleados->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-19 04:14:19 --> ErrorException: Undefined array key "name_usuario"
+[Method: GET, Route: empleados]
+in APPPATH\Views\empleados\index.php on line 32.
+ 1 APPPATH\Views\empleados\index.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name_usuario"', 'C:\\xampp\\htdocs\\crud_telat\\app\\Views\\empleados\\index.php', 32)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\crud_telat\\app\\Views\\empleados\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('empleados/index', [], true)
+ 5 APPPATH\Controllers\Empleados.php(24): view('empleados/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Empleados->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-19 04:14:19 --> ErrorException: Undefined array key "name_usuario"
+[Method: GET, Route: empleados]
+in APPPATH\Views\empleados\index.php on line 32.
+ 1 APPPATH\Views\empleados\index.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name_usuario"', 'C:\\xampp\\htdocs\\crud_telat\\app\\Views\\empleados\\index.php', 32)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\crud_telat\\app\\Views\\empleados\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('empleados/index', [], true)
+ 5 APPPATH\Controllers\Empleados.php(24): view('empleados/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Empleados->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-19 04:14:19 --> ErrorException: Undefined array key "name_usuario"
+[Method: GET, Route: empleados]
+in APPPATH\Views\empleados\index.php on line 32.
+ 1 APPPATH\Views\empleados\index.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name_usuario"', 'C:\\xampp\\htdocs\\crud_telat\\app\\Views\\empleados\\index.php', 32)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\crud_telat\\app\\Views\\empleados\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('empleados/index', [], true)
+ 5 APPPATH\Controllers\Empleados.php(24): view('empleados/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Empleados->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-19 04:14:20 --> ErrorException: Undefined array key "name_usuario"
+[Method: GET, Route: empleados]
+in APPPATH\Views\empleados\index.php on line 32.
+ 1 APPPATH\Views\empleados\index.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name_usuario"', 'C:\\xampp\\htdocs\\crud_telat\\app\\Views\\empleados\\index.php', 32)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\crud_telat\\app\\Views\\empleados\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('empleados/index', [], true)
+ 5 APPPATH\Controllers\Empleados.php(24): view('empleados/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Empleados->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-19 04:14:20 --> ErrorException: Undefined array key "name_usuario"
+[Method: GET, Route: empleados]
+in APPPATH\Views\empleados\index.php on line 32.
+ 1 APPPATH\Views\empleados\index.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name_usuario"', 'C:\\xampp\\htdocs\\crud_telat\\app\\Views\\empleados\\index.php', 32)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\crud_telat\\app\\Views\\empleados\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('empleados/index', [], true)
+ 5 APPPATH\Controllers\Empleados.php(24): view('empleados/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Empleados->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-19 04:15:37 --> ErrorException: Undefined array key "name_usuario"
+[Method: GET, Route: empleados]
+in APPPATH\Views\empleados\index.php on line 32.
+ 1 APPPATH\Views\empleados\index.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name_usuario"', 'C:\\xampp\\htdocs\\crud_telat\\app\\Views\\empleados\\index.php', 32)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\crud_telat\\app\\Views\\empleados\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('empleados/index', [], true)
+ 5 APPPATH\Controllers\Empleados.php(24): view('empleados/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Empleados->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-19 04:15:37 --> ErrorException: Undefined array key "name_usuario"
+[Method: GET, Route: empleados]
+in APPPATH\Views\empleados\index.php on line 32.
+ 1 APPPATH\Views\empleados\index.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name_usuario"', 'C:\\xampp\\htdocs\\crud_telat\\app\\Views\\empleados\\index.php', 32)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\crud_telat\\app\\Views\\empleados\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('empleados/index', [], true)
+ 5 APPPATH\Controllers\Empleados.php(24): view('empleados/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Empleados->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-19 04:15:38 --> ErrorException: Undefined array key "name_usuario"
+[Method: GET, Route: empleados]
+in APPPATH\Views\empleados\index.php on line 32.
+ 1 APPPATH\Views\empleados\index.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "name_usuario"', 'C:\\xampp\\htdocs\\crud_telat\\app\\Views\\empleados\\index.php', 32)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\crud_telat\\app\\Views\\empleados\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('empleados/index', [], true)
+ 5 APPPATH\Controllers\Empleados.php(24): view('empleados/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Empleados->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-19 04:17:06 --> ErrorException: Undefined array key "tipo_usuario"
+[Method: GET, Route: empleados]
+in APPPATH\Views\empleados\index.php on line 32.
+ 1 APPPATH\Views\empleados\index.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tipo_usuario"', 'C:\\xampp\\htdocs\\crud_telat\\app\\Views\\empleados\\index.php', 32)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\crud_telat\\app\\Views\\empleados\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('empleados/index', [], true)
+ 5 APPPATH\Controllers\Empleados.php(24): view('empleados/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Empleados->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-19 04:17:07 --> ErrorException: Undefined array key "tipo_usuario"
+[Method: GET, Route: empleados]
+in APPPATH\Views\empleados\index.php on line 32.
+ 1 APPPATH\Views\empleados\index.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tipo_usuario"', 'C:\\xampp\\htdocs\\crud_telat\\app\\Views\\empleados\\index.php', 32)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\crud_telat\\app\\Views\\empleados\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('empleados/index', [], true)
+ 5 APPPATH\Controllers\Empleados.php(24): view('empleados/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Empleados->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-19 04:17:07 --> ErrorException: Undefined array key "tipo_usuario"
+[Method: GET, Route: empleados]
+in APPPATH\Views\empleados\index.php on line 32.
+ 1 APPPATH\Views\empleados\index.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tipo_usuario"', 'C:\\xampp\\htdocs\\crud_telat\\app\\Views\\empleados\\index.php', 32)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\crud_telat\\app\\Views\\empleados\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('empleados/index', [], true)
+ 5 APPPATH\Controllers\Empleados.php(24): view('empleados/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Empleados->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-19 04:17:07 --> ErrorException: Undefined array key "tipo_usuario"
+[Method: GET, Route: empleados]
+in APPPATH\Views\empleados\index.php on line 32.
+ 1 APPPATH\Views\empleados\index.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tipo_usuario"', 'C:\\xampp\\htdocs\\crud_telat\\app\\Views\\empleados\\index.php', 32)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\crud_telat\\app\\Views\\empleados\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('empleados/index', [], true)
+ 5 APPPATH\Controllers\Empleados.php(24): view('empleados/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Empleados->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-19 04:17:07 --> ErrorException: Undefined array key "tipo_usuario"
+[Method: GET, Route: empleados]
+in APPPATH\Views\empleados\index.php on line 32.
+ 1 APPPATH\Views\empleados\index.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tipo_usuario"', 'C:\\xampp\\htdocs\\crud_telat\\app\\Views\\empleados\\index.php', 32)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\crud_telat\\app\\Views\\empleados\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('empleados/index', [], true)
+ 5 APPPATH\Controllers\Empleados.php(24): view('empleados/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Empleados->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-19 04:17:08 --> ErrorException: Undefined array key "tipo_usuario"
+[Method: GET, Route: empleados]
+in APPPATH\Views\empleados\index.php on line 32.
+ 1 APPPATH\Views\empleados\index.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tipo_usuario"', 'C:\\xampp\\htdocs\\crud_telat\\app\\Views\\empleados\\index.php', 32)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\crud_telat\\app\\Views\\empleados\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('empleados/index', [], true)
+ 5 APPPATH\Controllers\Empleados.php(24): view('empleados/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Empleados->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-19 04:17:08 --> ErrorException: Undefined array key "tipo_usuario"
+[Method: GET, Route: empleados]
+in APPPATH\Views\empleados\index.php on line 32.
+ 1 APPPATH\Views\empleados\index.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tipo_usuario"', 'C:\\xampp\\htdocs\\crud_telat\\app\\Views\\empleados\\index.php', 32)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\crud_telat\\app\\Views\\empleados\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('empleados/index', [], true)
+ 5 APPPATH\Controllers\Empleados.php(24): view('empleados/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Empleados->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-19 04:17:08 --> ErrorException: Undefined array key "tipo_usuario"
+[Method: GET, Route: empleados]
+in APPPATH\Views\empleados\index.php on line 32.
+ 1 APPPATH\Views\empleados\index.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tipo_usuario"', 'C:\\xampp\\htdocs\\crud_telat\\app\\Views\\empleados\\index.php', 32)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\crud_telat\\app\\Views\\empleados\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('empleados/index', [], true)
+ 5 APPPATH\Controllers\Empleados.php(24): view('empleados/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Empleados->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-19 04:17:08 --> ErrorException: Undefined array key "tipo_usuario"
+[Method: GET, Route: empleados]
+in APPPATH\Views\empleados\index.php on line 32.
+ 1 APPPATH\Views\empleados\index.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tipo_usuario"', 'C:\\xampp\\htdocs\\crud_telat\\app\\Views\\empleados\\index.php', 32)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\crud_telat\\app\\Views\\empleados\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('empleados/index', [], true)
+ 5 APPPATH\Controllers\Empleados.php(24): view('empleados/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Empleados->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-19 04:17:08 --> ErrorException: Undefined array key "tipo_usuario"
+[Method: GET, Route: empleados]
+in APPPATH\Views\empleados\index.php on line 32.
+ 1 APPPATH\Views\empleados\index.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tipo_usuario"', 'C:\\xampp\\htdocs\\crud_telat\\app\\Views\\empleados\\index.php', 32)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\crud_telat\\app\\Views\\empleados\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('empleados/index', [], true)
+ 5 APPPATH\Controllers\Empleados.php(24): view('empleados/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Empleados->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-19 04:17:09 --> ErrorException: Undefined array key "tipo_usuario"
+[Method: GET, Route: empleados]
+in APPPATH\Views\empleados\index.php on line 32.
+ 1 APPPATH\Views\empleados\index.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tipo_usuario"', 'C:\\xampp\\htdocs\\crud_telat\\app\\Views\\empleados\\index.php', 32)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\crud_telat\\app\\Views\\empleados\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('empleados/index', [], true)
+ 5 APPPATH\Controllers\Empleados.php(24): view('empleados/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Empleados->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-19 04:17:47 --> ErrorException: Undefined array key "tipo_usuario"
+[Method: GET, Route: empleados]
+in APPPATH\Views\empleados\index.php on line 32.
+ 1 APPPATH\Views\empleados\index.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tipo_usuario"', 'C:\\xampp\\htdocs\\crud_telat\\app\\Views\\empleados\\index.php', 32)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\crud_telat\\app\\Views\\empleados\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('empleados/index', [], true)
+ 5 APPPATH\Controllers\Empleados.php(24): view('empleados/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Empleados->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-19 04:17:47 --> ErrorException: Undefined array key "tipo_usuario"
+[Method: GET, Route: empleados]
+in APPPATH\Views\empleados\index.php on line 32.
+ 1 APPPATH\Views\empleados\index.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "tipo_usuario"', 'C:\\xampp\\htdocs\\crud_telat\\app\\Views\\empleados\\index.php', 32)
+ 2 SYSTEMPATH\View\View.php(234): include('C:\\xampp\\htdocs\\crud_telat\\app\\Views\\empleados\\index.php')
+ 3 SYSTEMPATH\View\View.php(237): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1171): CodeIgniter\View\View->render('empleados/index', [], true)
+ 5 APPPATH\Controllers\Empleados.php(24): view('empleados/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Empleados->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-06-19 04:24:48 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '= `usuarios`.`id`' at line 3 in C:\xampp\htdocs\crud_telat\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:310
+Stack trace:
+#0 C:\xampp\htdocs\crud_telat\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(310): mysqli->query('SELECT `emplead...', 0)
+#1 C:\xampp\htdocs\crud_telat\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `emplead...')
+#2 C:\xampp\htdocs\crud_telat\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `emplead...')
+#3 C:\xampp\htdocs\crud_telat\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query('SELECT `emplead...', Array, false)
+#4 C:\xampp\htdocs\crud_telat\vendor\codeigniter4\framework\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\crud_telat\vendor\codeigniter4\framework\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\crud_telat\app\Models\EmpleadosModel.php(33): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\crud_telat\app\Controllers\Empleados.php(21): App\Models\EmpleadosModel->empleadosUsuarios()
+#8 C:\xampp\htdocs\crud_telat\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\Empleados->index()
+#9 C:\xampp\htdocs\crud_telat\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+#10 C:\xampp\htdocs\crud_telat\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\crud_telat\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\crud_telat\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\crud_telat\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+CRITICAL - 2024-06-19 04:24:48 --> CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '= `usuarios`.`id`' at line 3
+[Method: GET, Route: empleados]
+in SYSTEMPATH\Database\BaseConnection.php on line 686.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query('SELECT `empleados`.*, `usuarios`.`tipo_usuario` AS `name_usuario`
+FROM `empleados`
+JOIN `usuarios` ON .`id_tipo_usuario` = `usuarios`.`id`', [], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\EmpleadosModel.php(33): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\Empleados.php(21): App\Models\EmpleadosModel->empleadosUsuarios()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Empleados->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-19 04:24:48 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '= `usuarios`.`id`' at line 3
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 315.
+ 1 SYSTEMPATH\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `empleados`.*, `usuarios`.`tipo_usuario` AS `name_usuario`
+FROM `empleados`
+JOIN `usuarios` ON .`id_tipo_usuario` = `usuarios`.`id`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `empleados`.*, `usuarios`.`tipo_usuario` AS `name_usuario`
+FROM `empleados`
+JOIN `usuarios` ON .`id_tipo_usuario` = `usuarios`.`id`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query('SELECT `empleados`.*, `usuarios`.`tipo_usuario` AS `name_usuario`
+FROM `empleados`
+JOIN `usuarios` ON .`id_tipo_usuario` = `usuarios`.`id`', [], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Models\EmpleadosModel.php(33): CodeIgniter\BaseModel->findAll()
+ 7 APPPATH\Controllers\Empleados.php(21): App\Models\EmpleadosModel->empleadosUsuarios()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Empleados->index()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-19 04:24:48 --> [Caused by] mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '= `usuarios`.`id`' at line 3
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 310.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(310): mysqli->query('SELECT `empleados`.*, `usuarios`.`tipo_usuario` AS `name_usuario`
+FROM `empleados`
+JOIN `usuarios` ON .`id_tipo_usuario` = `usuarios`.`id`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `empleados`.*, `usuarios`.`tipo_usuario` AS `name_usuario`
+FROM `empleados`
+JOIN `usuarios` ON .`id_tipo_usuario` = `usuarios`.`id`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `empleados`.*, `usuarios`.`tipo_usuario` AS `name_usuario`
+FROM `empleados`
+JOIN `usuarios` ON .`id_tipo_usuario` = `usuarios`.`id`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query('SELECT `empleados`.*, `usuarios`.`tipo_usuario` AS `name_usuario`
+FROM `empleados`
+JOIN `usuarios` ON .`id_tipo_usuario` = `usuarios`.`id`', [], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\EmpleadosModel.php(33): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\Empleados.php(21): App\Models\EmpleadosModel->empleadosUsuarios()
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Empleados->index()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-06-19 04:28:11 --> mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '= `usuarios`.`id`' at line 3 in C:\xampp\htdocs\crud_telat\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:310
+Stack trace:
+#0 C:\xampp\htdocs\crud_telat\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(310): mysqli->query('SELECT `emplead...', 0)
+#1 C:\xampp\htdocs\crud_telat\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `emplead...')
+#2 C:\xampp\htdocs\crud_telat\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `emplead...')
+#3 C:\xampp\htdocs\crud_telat\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query('SELECT `emplead...', Array, false)
+#4 C:\xampp\htdocs\crud_telat\vendor\codeigniter4\framework\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\crud_telat\vendor\codeigniter4\framework\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\crud_telat\app\Models\EmpleadosModel.php(33): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\crud_telat\app\Controllers\Empleados.php(21): App\Models\EmpleadosModel->empleadosUsuarios()
+#8 C:\xampp\htdocs\crud_telat\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\Empleados->index()
+#9 C:\xampp\htdocs\crud_telat\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+#10 C:\xampp\htdocs\crud_telat\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\crud_telat\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\crud_telat\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\crud_telat\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+CRITICAL - 2024-06-19 04:28:11 --> CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '= `usuarios`.`id`' at line 3
+[Method: GET, Route: empleados]
+in SYSTEMPATH\Database\BaseConnection.php on line 686.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query('SELECT `empleados`.*, `usuarios`.`id_tipo_usuario` AS `name_usuario`
+FROM `empleados`
+JOIN `usuarios` ON .`id_tipo_usuario` = `usuarios`.`id`', [], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\EmpleadosModel.php(33): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\Empleados.php(21): App\Models\EmpleadosModel->empleadosUsuarios()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Empleados->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-19 04:28:11 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '= `usuarios`.`id`' at line 3
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 315.
+ 1 SYSTEMPATH\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `empleados`.*, `usuarios`.`id_tipo_usuario` AS `name_usuario`
+FROM `empleados`
+JOIN `usuarios` ON .`id_tipo_usuario` = `usuarios`.`id`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `empleados`.*, `usuarios`.`id_tipo_usuario` AS `name_usuario`
+FROM `empleados`
+JOIN `usuarios` ON .`id_tipo_usuario` = `usuarios`.`id`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query('SELECT `empleados`.*, `usuarios`.`id_tipo_usuario` AS `name_usuario`
+FROM `empleados`
+JOIN `usuarios` ON .`id_tipo_usuario` = `usuarios`.`id`', [], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Models\EmpleadosModel.php(33): CodeIgniter\BaseModel->findAll()
+ 7 APPPATH\Controllers\Empleados.php(21): App\Models\EmpleadosModel->empleadosUsuarios()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Empleados->index()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-19 04:28:11 --> [Caused by] mysqli_sql_exception: You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '= `usuarios`.`id`' at line 3
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 310.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(310): mysqli->query('SELECT `empleados`.*, `usuarios`.`id_tipo_usuario` AS `name_usuario`
+FROM `empleados`
+JOIN `usuarios` ON .`id_tipo_usuario` = `usuarios`.`id`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `empleados`.*, `usuarios`.`id_tipo_usuario` AS `name_usuario`
+FROM `empleados`
+JOIN `usuarios` ON .`id_tipo_usuario` = `usuarios`.`id`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `empleados`.*, `usuarios`.`id_tipo_usuario` AS `name_usuario`
+FROM `empleados`
+JOIN `usuarios` ON .`id_tipo_usuario` = `usuarios`.`id`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query('SELECT `empleados`.*, `usuarios`.`id_tipo_usuario` AS `name_usuario`
+FROM `empleados`
+JOIN `usuarios` ON .`id_tipo_usuario` = `usuarios`.`id`', [], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\EmpleadosModel.php(33): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\Empleados.php(21): App\Models\EmpleadosModel->empleadosUsuarios()
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Empleados->index()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ERROR - 2024-06-19 04:31:14 --> mysqli_sql_exception: Unknown column 'usuarios.id_tipo_usuario' in 'field list' in C:\xampp\htdocs\crud_telat\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php:310
+Stack trace:
+#0 C:\xampp\htdocs\crud_telat\vendor\codeigniter4\framework\system\Database\MySQLi\Connection.php(310): mysqli->query('SELECT `emplead...', 0)
+#1 C:\xampp\htdocs\crud_telat\vendor\codeigniter4\framework\system\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `emplead...')
+#2 C:\xampp\htdocs\crud_telat\vendor\codeigniter4\framework\system\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `emplead...')
+#3 C:\xampp\htdocs\crud_telat\vendor\codeigniter4\framework\system\Database\BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query('SELECT `emplead...', Array, false)
+#4 C:\xampp\htdocs\crud_telat\vendor\codeigniter4\framework\system\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\crud_telat\vendor\codeigniter4\framework\system\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+#6 C:\xampp\htdocs\crud_telat\app\Models\EmpleadosModel.php(33): CodeIgniter\BaseModel->findAll()
+#7 C:\xampp\htdocs\crud_telat\app\Controllers\Empleados.php(21): App\Models\EmpleadosModel->empleadosUsuarios()
+#8 C:\xampp\htdocs\crud_telat\vendor\codeigniter4\framework\system\CodeIgniter.php(933): App\Controllers\Empleados->index()
+#9 C:\xampp\htdocs\crud_telat\vendor\codeigniter4\framework\system\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+#10 C:\xampp\htdocs\crud_telat\vendor\codeigniter4\framework\system\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\crud_telat\vendor\codeigniter4\framework\system\Boot.php(325): CodeIgniter\CodeIgniter->run()
+#12 C:\xampp\htdocs\crud_telat\vendor\codeigniter4\framework\system\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+#13 C:\xampp\htdocs\crud_telat\public\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+#14 {main}
+CRITICAL - 2024-06-19 04:31:14 --> CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'usuarios.id_tipo_usuario' in 'field list'
+[Method: GET, Route: empleados]
+in SYSTEMPATH\Database\BaseConnection.php on line 686.
+ 1 SYSTEMPATH\Database\BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query('SELECT `empleados`.*, `usuarios`.`id_tipo_usuario` AS `name_usuario`
+FROM `empleados`
+JOIN `usuarios` ON `empleados`.`id_tipo_usuario` = `usuarios`.`id`', [], false)
+ 2 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 3 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Models\EmpleadosModel.php(33): CodeIgniter\BaseModel->findAll()
+ 5 APPPATH\Controllers\Empleados.php(21): App\Models\EmpleadosModel->empleadosUsuarios()
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Empleados->index()
+ 7 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+ 8 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-19 04:31:14 --> [Caused by] CodeIgniter\Database\Exceptions\DatabaseException: Unknown column 'usuarios.id_tipo_usuario' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 315.
+ 1 SYSTEMPATH\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `empleados`.*, `usuarios`.`id_tipo_usuario` AS `name_usuario`
+FROM `empleados`
+JOIN `usuarios` ON `empleados`.`id_tipo_usuario` = `usuarios`.`id`')
+ 2 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `empleados`.*, `usuarios`.`id_tipo_usuario` AS `name_usuario`
+FROM `empleados`
+JOIN `usuarios` ON `empleados`.`id_tipo_usuario` = `usuarios`.`id`')
+ 3 SYSTEMPATH\Database\BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query('SELECT `empleados`.*, `usuarios`.`id_tipo_usuario` AS `name_usuario`
+FROM `empleados`
+JOIN `usuarios` ON `empleados`.`id_tipo_usuario` = `usuarios`.`id`', [], false)
+ 4 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 5 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 6 APPPATH\Models\EmpleadosModel.php(33): CodeIgniter\BaseModel->findAll()
+ 7 APPPATH\Controllers\Empleados.php(21): App\Models\EmpleadosModel->empleadosUsuarios()
+ 8 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Empleados->index()
+ 9 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+10 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+13 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+CRITICAL - 2024-06-19 04:31:14 --> [Caused by] mysqli_sql_exception: Unknown column 'usuarios.id_tipo_usuario' in 'field list'
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 310.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(310): mysqli->query('SELECT `empleados`.*, `usuarios`.`id_tipo_usuario` AS `name_usuario`
+FROM `empleados`
+JOIN `usuarios` ON `empleados`.`id_tipo_usuario` = `usuarios`.`id`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(732): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `empleados`.*, `usuarios`.`id_tipo_usuario` AS `name_usuario`
+FROM `empleados`
+JOIN `usuarios` ON `empleados`.`id_tipo_usuario` = `usuarios`.`id`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(646): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `empleados`.*, `usuarios`.`id_tipo_usuario` AS `name_usuario`
+FROM `empleados`
+JOIN `usuarios` ON `empleados`.`id_tipo_usuario` = `usuarios`.`id`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1637): CodeIgniter\Database\BaseConnection->query('SELECT `empleados`.*, `usuarios`.`id_tipo_usuario` AS `name_usuario`
+FROM `empleados`
+JOIN `usuarios` ON `empleados`.`id_tipo_usuario` = `usuarios`.`id`', [], false)
+ 5 SYSTEMPATH\Model.php(286): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(676): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Models\EmpleadosModel.php(33): CodeIgniter\BaseModel->findAll()
+ 8 APPPATH\Controllers\Empleados.php(21): App\Models\EmpleadosModel->empleadosUsuarios()
+ 9 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Empleados->index()
+10 SYSTEMPATH\CodeIgniter.php(509): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Empleados))
+11 SYSTEMPATH\CodeIgniter.php(355): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+12 SYSTEMPATH\Boot.php(325): CodeIgniter\CodeIgniter->run()
+13 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+14 FCPATH\index.php(56): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+INFO - 2024-06-19 04:32:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-19 04:33:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-19 04:35:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-19 04:35:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-19 04:35:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-19 04:35:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-19 05:35:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-19 05:36:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-19 06:49:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-19 06:51:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-19 06:51:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-19 06:53:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-19 06:55:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-19 06:56:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-19 06:56:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-19 06:57:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-19 07:06:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-19 07:07:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-19 07:07:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-19 07:09:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-19 07:09:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-19 07:13:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-19 07:13:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-19 07:17:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-19 07:19:08 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-19 07:19:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-19 07:19:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-19 07:20:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-19 07:20:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-19 07:20:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-19 07:20:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-19 07:20:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-19 07:20:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-19 07:22:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-19 07:24:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-19 07:27:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-19 07:32:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-19 07:32:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-19 07:33:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-19 07:33:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-19 07:33:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-19 07:34:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-19 07:34:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-19 07:41:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-19 07:42:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-19 07:42:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-19 07:42:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+INFO - 2024-06-19 07:42:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

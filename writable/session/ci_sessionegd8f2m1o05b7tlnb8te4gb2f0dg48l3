@@ -1,0 +1,9 @@
+__ci_last_regenerate|i:1718781215;_ci_previous_url|s:58:"http://localhost/crud_telat/public/index.php/empleados/new";_ci_old_input|a:2:{s:3:"get";a:0:{}s:4:"post";a:9:{s:15:"id_tipo_usuario";s:1:"1";s:5:"clave";s:8:"12345677";s:6:"nombre";s:13:"Validiaciones";s:9:"apellidos";s:13:"Validiaciones";s:4:"sexo";s:13:"Validiaciones";s:5:"email";s:23:"Validiaciones@gmail.com";s:2:"cp";s:13:"Validiaciones";s:7:"colonia";s:13:"Validiaciones";s:20:"delegacion_municipio";s:13:"Validiaciones";}}__ci_vars|a:3:{s:13:"_ci_old_input";s:3:"old";s:21:"_ci_validation_errors";s:3:"old";s:5:"error";s:3:"old";}_ci_validation_errors|a:1:{s:5:"clave";s:44:"The clave field must contain a unique value.";}error|s:253:"<!-- DEBUG-VIEW START 1 SYSTEMPATH\Validation\Views\list.php -->
+	<div class="errors" role="alert">
+		<ul>
+					<li>The clave field must contain a unique value.</li>
+				</ul>
+	</div>
+
+<!-- DEBUG-VIEW ENDED 1 SYSTEMPATH\Validation\Views\list.php -->
+";

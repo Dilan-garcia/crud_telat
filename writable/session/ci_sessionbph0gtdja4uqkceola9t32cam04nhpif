@@ -1,0 +1,9 @@
+__ci_last_regenerate|i:1718759125;_ci_previous_url|s:58:"http://localhost/crud_telat/public/index.php/empleados/new";_ci_old_input|a:2:{s:3:"get";a:0:{}s:4:"post";a:9:{s:15:"id_tipo_usuario";s:1:"1";s:5:"clave";s:4:"1111";s:6:"nombre";s:3:"sas";s:9:"apellidos";s:2:"ss";s:4:"sexo";s:2:"ss";s:5:"email";s:0:"";s:2:"cp";s:2:"ss";s:7:"colonia";s:2:"ss";s:20:"delegacion_municipio";s:2:"ss";}}__ci_vars|a:3:{s:13:"_ci_old_input";s:3:"old";s:21:"_ci_validation_errors";s:3:"old";s:5:"error";s:3:"old";}_ci_validation_errors|a:1:{s:5:"clave";s:56:"The clave field must be at least 8 characters in length.";}error|s:265:"<!-- DEBUG-VIEW START 1 SYSTEMPATH\Validation\Views\list.php -->
+	<div class="errors" role="alert">
+		<ul>
+					<li>The clave field must be at least 8 characters in length.</li>
+				</ul>
+	</div>
+
+<!-- DEBUG-VIEW ENDED 1 SYSTEMPATH\Validation\Views\list.php -->
+";
